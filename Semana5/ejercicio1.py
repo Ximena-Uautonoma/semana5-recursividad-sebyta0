@@ -7,7 +7,10 @@ Debe implementar dos funciones:
 """
 
 def contar_ciclo(n):
-    """
+    resultado = []
+    for i in range (1 , n + 1):
+        resultado.append(i)
+        return (resultado)
     Retorna una lista con los números desde 1 hasta n usando iteración.
     """
     # Escriba aquí su solución y borre la palabra pass de acontinuación
