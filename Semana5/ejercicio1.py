@@ -19,4 +19,7 @@ def contar_recursivo(n):
         lista = list_recur (n - 1)
         lista.append(n)
         return lista 
-print(list_recur)
+        
+print(f"Resultado ciclo: {contar_ciclo(n)}")
+print(f"Resultado recursivo: {contar_recursivo(n)}")
+
